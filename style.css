@@ -5,6 +5,11 @@
   top: 0;
   border-radius: 0.5rem;
 }
+@media (max-width: 576px) {
+  .nav__container {
+    padding: 0.5rem;
+  }
+}
 
 .nav {
   display: flex;
@@ -171,6 +176,11 @@
   gap: 2rem;
   width: 50%;
   margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .contact__form {
+    width: 100%;
+  }
 }
 .contact__form label {
   display: block;
