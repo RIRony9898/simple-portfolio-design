@@ -1,0 +1,18 @@
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #001242;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    gap: 1.5rem;
+    &__social--link{
+        text-decoration: none;
+        color: #fff;
+        margin-right: 0.5rem;
+        transition: color 0.3s ease;
+    }
+}

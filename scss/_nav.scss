@@ -1,0 +1,36 @@
+.nav__container {
+  background: #001242;
+  position: sticky;
+  padding: 3rem;
+  top: 0;
+  border-radius: 0.5rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1260px;
+  margin: 0 auto;
+  color: #fff;
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  &__menu {
+    display: flex;
+    gap: 5rem;
+    @media (max-width: 576px) {
+      gap: 2rem;
+    }
+  }
+  &__menu--item {
+    list-style: none;
+  }
+  &__menu--link {
+    text-decoration: none;
+    color: #fff;
+  }
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+}

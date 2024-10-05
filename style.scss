@@ -1,0 +1,25 @@
+@import "./scss/nav";
+@import "./scss/banner";
+@import "./scss/about";
+@import "./scss/skills";
+@import "./scss/portfolio";
+@import "./scss/contact";
+@import "./scss/footer";
+
+.section--title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+body{
+    background: #02328bb9;
+    color: #fff;
+}
+
+main, .banner {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 2rem;
+}
